@@ -1,0 +1,17 @@
+[toolchain]
+anchor_version = "0.29.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+ohm_fork_defi_staking = "HmXTaac3Cw3xvpfnkMC1nra8QZ1pA2W4c5PQ8HyozHKx"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
